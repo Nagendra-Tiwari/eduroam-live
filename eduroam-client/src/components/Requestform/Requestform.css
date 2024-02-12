@@ -1,0 +1,83 @@
+/* Requestform.css */
+
+.page-background {
+  position: absolute;
+  background-blend-mode: overlay;
+  background-image: url(../images/bg.jpg), linear-gradient(180deg, #7757d6 0%, #6349b1 100%) !important;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.first {
+  display: flex;
+  margin-left: 10%;
+}
+
+.isometic {
+  height: auto;
+  display: flex;
+  position:relative ;
+  width: 100%;
+  margin: 12px;
+  margin: 0;
+   padding: 0;
+  border: 0;
+   outline: 0;
+   margin-bottom: 12%;
+}
+.ques{
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 10%;
+  color: #fff;
+  
+}  
+.hr1{
+  
+  color: aquamarine;
+  margin-left: 0px !important;
+margin-right: auto !important;
+margin-bottom: 10px !important;
+max-width: 40px;
+}
+.detail{
+  font-size: 12pt;
+  margin-left: 3%;
+  margin-right: 16%;
+  text-align: justify;
+  line-height: 2.4em;    
+  color: rgb(209, 209, 209);
+  margin-bottom: 12%;
+}
+.form{
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.form1{
+  color: aliceblue;
+  
+  font-size: 13pt;
+  
+}
+.title1{
+ 
+  text-align: center;
+  margin-top: 10%;
+}
+.download{
+  cursor: pointer;
+  margin-bottom: 13%;
+  color: white;
+}
+.download a{
+  color:white;
+  text-decoration: none;
+}

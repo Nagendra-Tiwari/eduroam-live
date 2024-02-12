@@ -1,0 +1,60 @@
+/* Testimonial.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.testimonial-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #dad9e6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-icon {
+  width: 30%; 
+  margin-bottom: 20px;
+  border-radius: 50%; 
+}
+.name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.pcontent{
+  font-family: 'Poppins', sans-serif;
+  font-size: 10pt;
+  position: relative;
+}
+
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

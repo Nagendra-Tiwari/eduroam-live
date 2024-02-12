@@ -1,0 +1,51 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1b1750; /* Adjust background color as needed */
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other elements */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for styling */
+   
+    
+  }
+  .nav-item.active a{
+    color: orange;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 100%; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    margin-left: 15px; /* Adjust margin as needed */
+    
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+   position: relative;
+    padding: 0;
+    margin-right: 13px;
+  }
+  
+  .nav-item {
+   font-size:1em;
+    margin-right: 15px; /* Adjust margin as needed */
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: rgb(175, 175, 175); /* Adjust text color as needed */
+    font-weight: bold;
+  }
+  

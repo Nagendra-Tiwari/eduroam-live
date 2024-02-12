@@ -1,0 +1,71 @@
+.about{
+  margin-top: 10%;
+  margin-left: 8%;
+  font-size:35px;
+  font-weight: bold;
+}
+.list{
+    margin-left: 8%;
+  margin-right: 40%;
+  text-align: justify;
+  line-height: 2.2em;
+  background: transparent;
+  font-size: 12pt;
+}
+.btn{
+  color: #FFFFFF !important;
+  border-width: 0px !important;
+  border-color: RGBA(255,255,255,0);
+  border-radius: 100px;
+  font-size: 16px;
+  background-color: #000000;
+  margin-bottom:50px;
+  width: 15%;
+  height: 3vh;
+  text-align: center;
+  margin-left: 8%;
+  padding-top: 12px !important;
+  padding-right: 28px !important;
+  padding-bottom: 12px !important;
+  padding-left: 28px !important;
+  cursor: pointer;
+
+}
+.btn a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Add these styles to your existing CSS file or create a new one */
+
+/* Container styles */
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the main content */
+.main-content {
+  flex: 1; /* Take up the remaining space */
+}
+.video {
+  position: absolute;
+  top: 200px; /* Adjust as needed */
+  right: 70px; /* Adjust as needed */
+}
+.image{
+  position: absolute;
+  top: 460px; /* Adjust as needed */
+  right: 55px; /* Adjust as needed */
+  width: 30%;
+  height: 30%;
+
+}
+
+/* Additional styling for responsiveness */
+@media screen and (max-width: 768px) {
+  .video {
+    align-self: center; /* Center the video on smaller screens */
+    margin-top: 0; /* Reset margin for smaller screens */
+  }
+}
